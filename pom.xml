@@ -1,0 +1,59 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>org.dragonli.service</groupId>
+	<artifactId>service-parent</artifactId>
+	<version>1.0</version>
+	<packaging>pom</packaging>
+
+	<parent>
+		<groupId>org.dragonli.service</groupId>
+		<artifactId>parent</artifactId>
+		<version>1.0</version>
+	</parent>
+
+	<description>all dragonli java project root config</description>
+	<url>http://www.dragonli.org/</url>
+	<licenses>
+		<license>
+			<name>The Apache Software License, Version 2.0</name>
+			<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+		</license>
+	</licenses>
+	<developers>
+		<developer>
+			<name>dragonli studio team</name>
+			<email>dragonlistuudio@gmail.com</email>
+		</developer>
+	</developers>
+	<scm>
+		<connection>scm:git:git@github.com:dragonli-people/dragonli-service-parent.git</connection>
+		<developerConnection>scm:git:git@github.com:dragonli-people/dragonli-service-parent.git</developerConnection>
+		<url>git@github.com:dragonli-people/dragonli-service-parent.git</url>
+	</scm>
+
+	<distributionManagement>
+		<snapshotRepository>
+			<id>sonatype1</id>
+			<url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+		</snapshotRepository>
+		<repository>
+			<id>sonatype1</id>
+			<url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+		</repository>
+	</distributionManagement>
+
+	<build>
+
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+					<!-- exclude devtools -->
+					<excludeDevtools>true</excludeDevtools>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+</project>
