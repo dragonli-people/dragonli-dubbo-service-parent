@@ -44,9 +44,11 @@
 	</distributionManagement>
 
 	<dependencies>
-		<groupId>org.dragonli.service</groupId>
-		<artifactId>dragonli-dubbo-service-core</artifactId>
-		<version>1.0</version>
+		<dependency>
+			<groupId>org.dragonli.service</groupId>
+			<artifactId>dragonli-dubbo-service-core</artifactId>
+			<version>1.0</version>
+		</dependency>
 	</dependencies>
 
 	<build>
