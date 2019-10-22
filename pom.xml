@@ -13,7 +13,7 @@
 	</parent>
 
 	<description>all dragonli java project root config</description>
-	<url>https://github.com/dragonli-people</url>
+	<url>https://github.com/dragonli-people/dragonli-dubbo-service-parent</url>
 	<licenses>
 		<license>
 			<name>The Apache Software License, Version 2.0</name>
