@@ -3,13 +3,13 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.dragonli.service</groupId>
 	<artifactId>dubbo-service-parent</artifactId>
-	<version>1.0.3</version>
+	<version>1.0.4</version>
 	<packaging>pom</packaging>
 
 	<parent>
 		<groupId>org.dragonli.service</groupId>
 		<artifactId>parent</artifactId>
-		<version>1.0.3</version>
+		<version>1.0.4</version>
 	</parent>
 
 	<description>all dragonli java project root config</description>
@@ -47,7 +47,7 @@
 		<dependency>
 			<groupId>org.dragonli.service</groupId>
 			<artifactId>dragonli-dubbo-service-core</artifactId>
-			<version>1.0</version>
+			<version>1.0.3</version>
 		</dependency>
 	</dependencies>
 
